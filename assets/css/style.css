@@ -1,0 +1,81 @@
+@import url(./reset.css);
+
+header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  /* min-width: min-content; */
+  max-width: 100%;
+  background-image: url('../images/header_background.png');
+  background-size: cover;
+  border-radius: 2px;
+  gap: 2rem;
+}
+
+header h1 {
+  max-width: 50%;
+  font-family: 'Luckiest Guy';
+  color: #FFFFFF;
+  font-weight: 400;
+  align-self: start;
+}
+
+header .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  a {
+    padding: 0.5rem;
+  }
+}
+
+header #app_download {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  padding: 0.5rem 1rem;
+  color: #23272A;
+}
+
+header #app_web {
+  background-color: #23272A;
+  border-radius: 15px;
+  padding: 0.5em 1rem;
+  color: #FFFFFF;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* min-width: min-content; */
+  max-width: 100%;
+  gap: 40px;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+main section div {
+  justify-items: center;
+}
+
+footer {
+  padding: 20px;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-content: center;
+  background-color: black;
+}
